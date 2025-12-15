@@ -1,4 +1,5 @@
 {
   "DayMsg": "",
-  "SecondsTimeout": 5
+  "SecondsTimeout": 5,
+  "BotsAttackBots": false
 }
