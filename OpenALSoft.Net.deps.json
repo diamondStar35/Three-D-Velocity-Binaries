@@ -1,21 +1,21 @@
 {
   "runtimeTarget": {
-    "name": ".NETCoreApp,Version=v8.0/win-x64",
+    "name": ".NETStandard,Version=v2.0/",
     "signature": ""
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v8.0": {},
-    ".NETCoreApp,Version=v8.0/win-x64": {
-      "TDVServer/1.0.0": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "OpenALSoft.Net/1.0.0": {
         "runtime": {
-          "TDVServer.dll": {}
+          "OpenALSoft.Net.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "TDVServer/1.0.0": {
+    "OpenALSoft.Net/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
