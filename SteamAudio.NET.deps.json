@@ -1,0 +1,24 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "SteamAudio.NET/4.6.1": {
+        "runtime": {
+          "SteamAudio.NET.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SteamAudio.NET/4.6.1": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

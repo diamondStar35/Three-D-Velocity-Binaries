@@ -1,0 +1,176 @@
+Running server version 2.44
+Initializing...
+Server listening on port 4444
+Server listening on port 4445
+Server listening on port 4567
+Server listening on port 6969
+Server listening on port 60385
+Server listening on port 32000
+Running server version 2.44
+Initializing...
+Server listening on port 4444
+Server listening on port 4445
+Server listening on port 4567
+Server listening on port 6969
+Server listening on port 60385
+Server listening on port 32000
+Running server version 2.44
+Initializing...
+Server listening on port 4444
+Server listening on port 4445
+Server listening on port 4567
+Server listening on port 6969
+Server listening on port 60385
+Server listening on port 32000
+Running server version 2.44
+Running server version 2.44
+Logging levels in effect: debug, error, info, chat
+Error loading settings from settings.json: Object reference not set to an instance of an object.   at TDVServer.Server.propogate(MemoryStream stream, TcpClient exclude) in D:\Three-D-Velocity\TDV\TDVServer\Server.cs:line 562
+   at TDVServer.Server.broadcastBotSettings() in D:\Three-D-Velocity\TDV\TDVServer\Server.cs:line 1257
+   at TDVServer.Server.set_BotsAttackBots(Boolean value) in D:\Three-D-Velocity\TDV\TDVServer\Server.cs:line 356
+   at TDVServer.Server.loadSettings() in D:\Three-D-Velocity\TDV\TDVServer\Server.cs:line 1242 [error]
+Settings saved to settings.json. [info]
+Initializing...
+Creating FFA game. [info]
+ok [debug]
+Server listening on port 4444
+Server listening on port 4445
+Server listening on port 4567
+Server listening on port 6969
+Server listening on port 60385
+Server listening on port 32000
+Running server version 2.44
+Logging levels in effect: debug, error, info, chat
+settings.json not found. Using default settings and creating a new one. [info]
+Settings saved to settings.json. [info]
+Initializing...
+Creating FFA game. [info]
+ok [debug]
+Server listening on port 4444
+Server listening on port 4445
+Server listening on port 4567
+Server listening on port 6969
+Server listening on port 60385
+Server listening on port 32000
+Client connected! [debug]
+Waiting for call sign. [debug]
+New connection, call sign is diamond. [info]
+ok [debug]
+Listening for connection on port 4444 [info]
+Sending message: diamond has joined F F A [debug]
+Success [debug]
+Game 90VT417:Adding player 35171d92-499c-49cd-90d9-384ca21c6b54... [debug]
+Game 90VT417:Propogating connection... [debug]
+Game 90VT417:Sending info about other clients to this client... [debug]
+Game 90VT417:FFA, Starting local player... [debug]
+Game 90VT417:diamond has joined this game. [chat]
+Game 90VT417:Error while reading data from 35171d92-499c-49cd-90d9-384ca21c6b54. Char = 1
+Last command: 21
+Stack trace: Unable to read beyond the end of the stream.   at System.IO.BinaryReader.Read7BitEncodedInt()
+   at System.IO.BinaryReader.ReadString()
+   at TDVServer.Game.performCMDRCV(String tag, TcpClient client) in D:\Three-D-Velocity\TDV\TDVServer\Game.cs:line 307 [error]
+Running server version 2.44
+Logging levels in effect: info, error, debug, chat, messages
+Error loading settings from settings.json: Object reference not set to an instance of an object.   at TDVServer.Server.propogate(MemoryStream stream, TcpClient exclude) in D:\Three-D-Velocity\TDV\TDVServer\Server.cs:line 562
+   at TDVServer.Server.broadcastBotSettings() in D:\Three-D-Velocity\TDV\TDVServer\Server.cs:line 1257
+   at TDVServer.Server.set_BotsAttackBots(Boolean value) in D:\Three-D-Velocity\TDV\TDVServer\Server.cs:line 356
+   at TDVServer.Server.loadSettings() in D:\Three-D-Velocity\TDV\TDVServer\Server.cs:line 1242 [error]
+Settings saved to settings.json. [info]
+Initializing...
+Creating FFA game. [info]
+ok [debug]
+Server listening on port 4444
+Server listening on port 4445
+Server listening on port 4567
+Server listening on port 6969
+Server listening on port 60385
+Server listening on port 32000
+Client connected! [debug]
+Waiting for call sign. [debug]
+New connection, call sign is diamond. [info]
+ok [debug]
+Listening for connection on port 4444 [info]
+diamond has joined F F A [messages]
+Sending message: diamond has joined F F A [debug]
+Success [debug]
+Game T3H8:Adding player 383e4b3e-690c-469a-a948-4015c881af69... [debug]
+Game T3H8:Propogating connection... [debug]
+Game T3H8:Sending info about other clients to this client... [debug]
+Game T3H8:FFA, Starting local player... [debug]
+Game T3H8:diamond has joined this game. [chat]
+Game T3H8:Bot 4137 has been created. [chat]
+Game T3H8:Bot Bot 4137 created [debug]
+diamond Has returned from a game. [messages]
+Sending message: diamond Has returned from a game. [debug]
+Success [debug]
+Game T3H8:Clearing bots. [debug]
+Game T3H8:Ok [debug]
+Game T3H8:diamond has left the game. [chat]
+diamond disconnected [info]
+Running server version 2.44
+Logging levels in effect: info, error, debug, chat, messages
+Settings loaded from settings.json. [info]
+Initializing...
+Creating FFA game. [info]
+ok [debug]
+Server listening on port 4444
+Server listening on port 4445
+Server listening on port 4567
+Server listening on port 6969
+Server listening on port 60385
+Server listening on port 32000
+Client connected! [debug]
+Waiting for call sign. [debug]
+New connection, call sign is diamond. [info]
+ok [debug]
+Listening for connection on port 4444 [info]
+diamond has joined F F A [messages]
+Sending message: diamond has joined F F A [debug]
+Success [debug]
+Game CFC5L8J:Adding player 68fa38a3-1ac5-4557-92cc-ab9639c4ac1c... [debug]
+Game CFC5L8J:Propogating connection... [debug]
+Game CFC5L8J:Sending info about other clients to this client... [debug]
+Game CFC5L8J:FFA, Starting local player... [debug]
+Game CFC5L8J:diamond has joined this game. [chat]
+Game CFC5L8J:Drone 5962 has been created. [chat]
+Game CFC5L8J:Bot Drone 5962 created [debug]
+Game CFC5L8J:diamond was poned by Drone 5962 [chat]
+diamond Has returned from a game. [messages]
+Sending message: diamond Has returned from a game. [debug]
+Success [debug]
+Game CFC5L8J:Clearing bots. [debug]
+Game CFC5L8J:Ok [debug]
+diamond has joined F F A [messages]
+Sending message: diamond has joined F F A [debug]
+Success [debug]
+Game CFC5L8J:Adding player 68fa38a3-1ac5-4557-92cc-ab9639c4ac1c... [debug]
+Game CFC5L8J:Propogating connection... [debug]
+Game CFC5L8J:Sending info about other clients to this client... [debug]
+Game CFC5L8J:Created bot B-5962 [debug]
+Game CFC5L8J:FFA, Starting local player... [debug]
+Game CFC5L8J:diamond has joined this game. [chat]
+Game CFC5L8J:diamond was poned by Drone 5962 [chat]
+diamond Has returned from a game. [messages]
+Sending message: diamond Has returned from a game. [debug]
+Success [debug]
+Game CFC5L8J:Clearing bots. [debug]
+Game CFC5L8J:Ok [debug]
+diamond has joined F F A [messages]
+Sending message: diamond has joined F F A [debug]
+Success [debug]
+Game CFC5L8J:Adding player 68fa38a3-1ac5-4557-92cc-ab9639c4ac1c... [debug]
+Game CFC5L8J:Propogating connection... [debug]
+Game CFC5L8J:Sending info about other clients to this client... [debug]
+Game CFC5L8J:Created bot B-5962 [debug]
+Game CFC5L8J:FFA, Starting local player... [debug]
+Game CFC5L8J:diamond has joined this game. [chat]
+Game CFC5L8J:B-5962 has been dropped from the server [chat]
+Game CFC5L8J:Ace aircraft 60581 has been created. [chat]
+Game CFC5L8J:Bot Ace aircraft 60581 created [debug]
+Game CFC5L8J:diamond was poned by Ace aircraft 60581 [chat]
+diamond Has returned from a game. [messages]
+Sending message: diamond Has returned from a game. [debug]
+Success [debug]
+Game CFC5L8J:Clearing bots. [debug]
+Game CFC5L8J:Ok [debug]
+diamond disconnected [info]
