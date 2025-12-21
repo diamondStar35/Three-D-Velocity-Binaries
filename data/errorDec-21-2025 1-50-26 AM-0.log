@@ -1,0 +1,23 @@
+Error log, created with build version 2.44.0.0: 
+Error base exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at TDV.ExplosiveMissile.use() in D:\Three-D-Velocity\TDV\w_ExplosiveMissile.cs:line 81
+   at TDV.Weapons.initializeWeapon(WeaponBase e) in D:\Three-D-Velocity\TDV\Weapons.cs:line 665
+   at TDV.Weapons.use(WeaponTypes type, Projector target, Range firingRange) in D:\Three-D-Velocity\TDV\Weapons.cs:line 654
+   at TDV.Aircraft.fireWeapon() in D:\Three-D-Velocity\TDV\Aircraft.cs:line 2172
+   at TDV.AceAircraft.fireWeapon() in D:\Three-D-Velocity\TDV\AceAircraft.cs:line 223
+   at TDV.Aircraft.iterateActions() in D:\Three-D-Velocity\TDV\Aircraft.cs:line 4125
+   at TDV.Aircraft.interact() in D:\Three-D-Velocity\TDV\Aircraft.cs:line 1218
+   at TDV.Aircraft.move() in D:\Three-D-Velocity\TDV\Aircraft.cs:line 732
+   at TDV.AceAircraft.move() in D:\Three-D-Velocity\TDV\AceAircraft.cs:line 107
+   at TDV.Holder.activate() in D:\Three-D-Velocity\TDV\Holder.cs:line 106
+Error Description: Object reference not set to an instance of an object.
+Stack trace:    at TDV.ExplosiveMissile.use() in D:\Three-D-Velocity\TDV\w_ExplosiveMissile.cs:line 81
+   at TDV.Weapons.initializeWeapon(WeaponBase e) in D:\Three-D-Velocity\TDV\Weapons.cs:line 665
+   at TDV.Weapons.use(WeaponTypes type, Projector target, Range firingRange) in D:\Three-D-Velocity\TDV\Weapons.cs:line 654
+   at TDV.Aircraft.fireWeapon() in D:\Three-D-Velocity\TDV\Aircraft.cs:line 2172
+   at TDV.AceAircraft.fireWeapon() in D:\Three-D-Velocity\TDV\AceAircraft.cs:line 223
+   at TDV.Aircraft.iterateActions() in D:\Three-D-Velocity\TDV\Aircraft.cs:line 4125
+   at TDV.Aircraft.interact() in D:\Three-D-Velocity\TDV\Aircraft.cs:line 1218
+   at TDV.Aircraft.move() in D:\Three-D-Velocity\TDV\Aircraft.cs:line 732
+   at TDV.AceAircraft.move() in D:\Three-D-Velocity\TDV\AceAircraft.cs:line 107
+   at TDV.Holder.activate() in D:\Three-D-Velocity\TDV\Holder.cs:line 106

@@ -7,108 +7,7 @@ Server listening on port 6969
 Server listening on port 60385
 Server listening on port 32000
 Running server version 2.44
-Initializing...
-Server listening on port 4444
-Server listening on port 4445
-Server listening on port 4567
-Server listening on port 6969
-Server listening on port 60385
-Server listening on port 32000
-Running server version 2.44
-Initializing...
-Server listening on port 4444
-Server listening on port 4445
-Server listening on port 4567
-Server listening on port 6969
-Server listening on port 60385
-Server listening on port 32000
-Running server version 2.44
-Running server version 2.44
-Logging levels in effect: debug, error, info, chat
-Error loading settings from settings.json: Object reference not set to an instance of an object.   at TDVServer.Server.propogate(MemoryStream stream, TcpClient exclude) in D:\Three-D-Velocity\TDV\TDVServer\Server.cs:line 562
-   at TDVServer.Server.broadcastBotSettings() in D:\Three-D-Velocity\TDV\TDVServer\Server.cs:line 1257
-   at TDVServer.Server.set_BotsAttackBots(Boolean value) in D:\Three-D-Velocity\TDV\TDVServer\Server.cs:line 356
-   at TDVServer.Server.loadSettings() in D:\Three-D-Velocity\TDV\TDVServer\Server.cs:line 1242 [error]
-Settings saved to settings.json. [info]
-Initializing...
-Creating FFA game. [info]
-ok [debug]
-Server listening on port 4444
-Server listening on port 4445
-Server listening on port 4567
-Server listening on port 6969
-Server listening on port 60385
-Server listening on port 32000
-Running server version 2.44
-Logging levels in effect: debug, error, info, chat
-settings.json not found. Using default settings and creating a new one. [info]
-Settings saved to settings.json. [info]
-Initializing...
-Creating FFA game. [info]
-ok [debug]
-Server listening on port 4444
-Server listening on port 4445
-Server listening on port 4567
-Server listening on port 6969
-Server listening on port 60385
-Server listening on port 32000
-Client connected! [debug]
-Waiting for call sign. [debug]
-New connection, call sign is diamond. [info]
-ok [debug]
-Listening for connection on port 4444 [info]
-Sending message: diamond has joined F F A [debug]
-Success [debug]
-Game 90VT417:Adding player 35171d92-499c-49cd-90d9-384ca21c6b54... [debug]
-Game 90VT417:Propogating connection... [debug]
-Game 90VT417:Sending info about other clients to this client... [debug]
-Game 90VT417:FFA, Starting local player... [debug]
-Game 90VT417:diamond has joined this game. [chat]
-Game 90VT417:Error while reading data from 35171d92-499c-49cd-90d9-384ca21c6b54. Char = 1
-Last command: 21
-Stack trace: Unable to read beyond the end of the stream.   at System.IO.BinaryReader.Read7BitEncodedInt()
-   at System.IO.BinaryReader.ReadString()
-   at TDVServer.Game.performCMDRCV(String tag, TcpClient client) in D:\Three-D-Velocity\TDV\TDVServer\Game.cs:line 307 [error]
-Running server version 2.44
-Logging levels in effect: info, error, debug, chat, messages
-Error loading settings from settings.json: Object reference not set to an instance of an object.   at TDVServer.Server.propogate(MemoryStream stream, TcpClient exclude) in D:\Three-D-Velocity\TDV\TDVServer\Server.cs:line 562
-   at TDVServer.Server.broadcastBotSettings() in D:\Three-D-Velocity\TDV\TDVServer\Server.cs:line 1257
-   at TDVServer.Server.set_BotsAttackBots(Boolean value) in D:\Three-D-Velocity\TDV\TDVServer\Server.cs:line 356
-   at TDVServer.Server.loadSettings() in D:\Three-D-Velocity\TDV\TDVServer\Server.cs:line 1242 [error]
-Settings saved to settings.json. [info]
-Initializing...
-Creating FFA game. [info]
-ok [debug]
-Server listening on port 4444
-Server listening on port 4445
-Server listening on port 4567
-Server listening on port 6969
-Server listening on port 60385
-Server listening on port 32000
-Client connected! [debug]
-Waiting for call sign. [debug]
-New connection, call sign is diamond. [info]
-ok [debug]
-Listening for connection on port 4444 [info]
-diamond has joined F F A [messages]
-Sending message: diamond has joined F F A [debug]
-Success [debug]
-Game T3H8:Adding player 383e4b3e-690c-469a-a948-4015c881af69... [debug]
-Game T3H8:Propogating connection... [debug]
-Game T3H8:Sending info about other clients to this client... [debug]
-Game T3H8:FFA, Starting local player... [debug]
-Game T3H8:diamond has joined this game. [chat]
-Game T3H8:Bot 4137 has been created. [chat]
-Game T3H8:Bot Bot 4137 created [debug]
-diamond Has returned from a game. [messages]
-Sending message: diamond Has returned from a game. [debug]
-Success [debug]
-Game T3H8:Clearing bots. [debug]
-Game T3H8:Ok [debug]
-Game T3H8:diamond has left the game. [chat]
-diamond disconnected [info]
-Running server version 2.44
-Logging levels in effect: info, error, debug, chat, messages
+Logging levels in effect: messages, chat, info, error, debug
 Settings loaded from settings.json. [info]
 Initializing...
 Creating FFA game. [info]
@@ -127,50 +26,542 @@ Listening for connection on port 4444 [info]
 diamond has joined F F A [messages]
 Sending message: diamond has joined F F A [debug]
 Success [debug]
-Game CFC5L8J:Adding player 68fa38a3-1ac5-4557-92cc-ab9639c4ac1c... [debug]
-Game CFC5L8J:Propogating connection... [debug]
-Game CFC5L8J:Sending info about other clients to this client... [debug]
-Game CFC5L8J:FFA, Starting local player... [debug]
-Game CFC5L8J:diamond has joined this game. [chat]
-Game CFC5L8J:Drone 5962 has been created. [chat]
-Game CFC5L8J:Bot Drone 5962 created [debug]
-Game CFC5L8J:diamond was poned by Drone 5962 [chat]
+Game 327PW1W6:Adding player f7f7c715-e05d-4173-82b4-6860b28a20aa... [debug]
+Game 327PW1W6:Propogating connection... [debug]
+Game 327PW1W6:Sending info about other clients to this client... [debug]
+Game 327PW1W6:FFA, Starting local player... [debug]
+Game 327PW1W6:diamond has joined this game. [chat]
+Game 327PW1W6:Drone 5718 has been created. [chat]
+Game 327PW1W6:Bot Drone 5718 created [debug]
 diamond Has returned from a game. [messages]
 Sending message: diamond Has returned from a game. [debug]
 Success [debug]
-Game CFC5L8J:Clearing bots. [debug]
-Game CFC5L8J:Ok [debug]
+Game 327PW1W6:Clearing bots. [debug]
+Game 327PW1W6:Ok [debug]
+Game 327PW1W6:diamond has left the game. [chat]
+diamond disconnected [info]
+Running server version 2.44
+Logging levels in effect: messages, chat, info, error, debug
+Settings loaded from settings.json. [info]
+Initializing...
+Creating FFA game. [info]
+ok [debug]
+Server listening on port 4444
+Server listening on port 4445
+Server listening on port 4567
+Server listening on port 6969
+Server listening on port 60385
+Server listening on port 32000
+Client connected! [debug]
+Waiting for call sign. [debug]
+New connection, call sign is diamond. [info]
+ok [debug]
+Listening for connection on port 4444 [info]
 diamond has joined F F A [messages]
 Sending message: diamond has joined F F A [debug]
 Success [debug]
-Game CFC5L8J:Adding player 68fa38a3-1ac5-4557-92cc-ab9639c4ac1c... [debug]
-Game CFC5L8J:Propogating connection... [debug]
-Game CFC5L8J:Sending info about other clients to this client... [debug]
-Game CFC5L8J:Created bot B-5962 [debug]
-Game CFC5L8J:FFA, Starting local player... [debug]
-Game CFC5L8J:diamond has joined this game. [chat]
-Game CFC5L8J:diamond was poned by Drone 5962 [chat]
+Game 164YFDT48:Adding player 33b3e7db-03f6-477a-b01b-a41b26ae780b... [debug]
+Game 164YFDT48:Propogating connection... [debug]
+Game 164YFDT48:Sending info about other clients to this client... [debug]
+Game 164YFDT48:FFA, Starting local player... [debug]
+Game 164YFDT48:diamond has joined this game. [chat]
+Game 164YFDT48:Drone 7820 has been created. [chat]
+Game 164YFDT48:Bot Drone 7820 created [debug]
 diamond Has returned from a game. [messages]
 Sending message: diamond Has returned from a game. [debug]
 Success [debug]
-Game CFC5L8J:Clearing bots. [debug]
-Game CFC5L8J:Ok [debug]
+Game 164YFDT48:Clearing bots. [debug]
+Game 164YFDT48:Ok [debug]
+Game 164YFDT48:diamond has left the game. [chat]
+diamond disconnected [info]
+Running server version 2.44
+Logging levels in effect: messages, chat, info, error, debug
+Settings loaded from settings.json. [info]
+Initializing...
+Creating FFA game. [info]
+ok [debug]
+Server listening on port 4444
+Server listening on port 4445
+Server listening on port 4567
+Server listening on port 6969
+Server listening on port 60385
+Server listening on port 32000
+Client connected! [debug]
+Waiting for call sign. [debug]
+New connection, call sign is diamond. [info]
+ok [debug]
+Listening for connection on port 4444 [info]
 diamond has joined F F A [messages]
 Sending message: diamond has joined F F A [debug]
 Success [debug]
-Game CFC5L8J:Adding player 68fa38a3-1ac5-4557-92cc-ab9639c4ac1c... [debug]
-Game CFC5L8J:Propogating connection... [debug]
-Game CFC5L8J:Sending info about other clients to this client... [debug]
-Game CFC5L8J:Created bot B-5962 [debug]
-Game CFC5L8J:FFA, Starting local player... [debug]
-Game CFC5L8J:diamond has joined this game. [chat]
-Game CFC5L8J:B-5962 has been dropped from the server [chat]
-Game CFC5L8J:Ace aircraft 60581 has been created. [chat]
-Game CFC5L8J:Bot Ace aircraft 60581 created [debug]
-Game CFC5L8J:diamond was poned by Ace aircraft 60581 [chat]
+Game 5J95JA0M:Adding player c58d0e29-7143-4139-96b3-32b1d98d28c3... [debug]
+Game 5J95JA0M:Propogating connection... [debug]
+Game 5J95JA0M:Sending info about other clients to this client... [debug]
+Game 5J95JA0M:FFA, Starting local player... [debug]
+Game 5J95JA0M:diamond has joined this game. [chat]
+Game 5J95JA0M:Drone 4380 has been created. [chat]
+Game 5J95JA0M:Bot Drone 4380 created [debug]
+Game 5J95JA0M:Chopper 7300 has been created. [chat]
+Game 5J95JA0M:Bot Chopper 7300 created [debug]
+Game 5J95JA0M:Chopper 7300 made a pilot error [chat]
+Game 5J95JA0M:Fighter 47266 has been created. [chat]
+Game 5J95JA0M:Bot Fighter 47266 created [debug]
+Game 5J95JA0M:Drone 79868 has been created. [chat]
+Game 5J95JA0M:Bot Drone 79868 created [debug]
+Game 5J95JA0M:Drone 4380 was poned by Drone 79868 [chat]
+Game 5J95JA0M:Elite fighter 90359 has been created. [chat]
+Game 5J95JA0M:Bot Elite fighter 90359 created [debug]
 diamond Has returned from a game. [messages]
 Sending message: diamond Has returned from a game. [debug]
 Success [debug]
-Game CFC5L8J:Clearing bots. [debug]
-Game CFC5L8J:Ok [debug]
+Game 5J95JA0M:Clearing bots. [debug]
+Game 5J95JA0M:Ok [debug]
+Game 5J95JA0M:diamond has left the game. [chat]
+diamond disconnected [info]
+Client connected! [debug]
+Waiting for call sign. [debug]
+New connection, call sign is diamond. [info]
+ok [debug]
+Listening for connection on port 4444 [info]
+diamond has joined F F A [messages]
+Sending message: diamond has joined F F A [debug]
+Success [debug]
+Game 5J95JA0M:Adding player 3ea60a43-63fc-4fc9-b2b1-d5dcfb80cad0... [debug]
+Game 5J95JA0M:Propogating connection... [debug]
+Game 5J95JA0M:Sending info about other clients to this client... [debug]
+Game 5J95JA0M:Created bot B-47266 [debug]
+Game 5J95JA0M:Created bot B-79868 [debug]
+Game 5J95JA0M:Created bot B-90359 [debug]
+Game 5J95JA0M:FFA, Starting local player... [debug]
+Game 5J95JA0M:diamond has joined this game. [chat]
+Game 5J95JA0M:Drone 56838 has been created. [chat]
+Game 5J95JA0M:Bot Drone 56838 created [debug]
+Game 5J95JA0M:Drone 8555 has been created. [chat]
+Game 5J95JA0M:Bot Drone 8555 created [debug]
+Game 5J95JA0M:Chopper 90064 has been created. [chat]
+Game 5J95JA0M:Bot Chopper 90064 created [debug]
+Game 5J95JA0M:Drone 79868 was poned by Elite fighter 90359 [chat]
+Game 5J95JA0M:Chopper 90064 made a pilot error [chat]
+Game 5J95JA0M:Drone 56838 was poned by Drone 8555 [chat]
+Game 5J95JA0M:Drone 90009 has been created. [chat]
+Game 5J95JA0M:Bot Drone 90009 created [debug]
+Game 5J95JA0M:Ace aircraft 42489 has been created. [chat]
+Game 5J95JA0M:Bot Ace aircraft 42489 created [debug]
+Game 5J95JA0M:Drone 8555 was poned by Elite fighter 90359 [chat]
+Game 5J95JA0M:Elite fighter 2297 has been created. [chat]
+Game 5J95JA0M:Bot Elite fighter 2297 created [debug]
+Game 5J95JA0M:Clearing bots. [debug]
+Game 5J95JA0M:Ok [debug]
+Game 5J95JA0M:diamond has been unexpectedly disconnected. [chat]
+Running server version 2.44
+Logging levels in effect: messages, chat, info, error, debug
+Settings loaded from settings.json. [info]
+Initializing...
+Creating FFA game. [info]
+ok [debug]
+Server listening on port 4444
+Server listening on port 4445
+Server listening on port 4567
+Server listening on port 6969
+Server listening on port 60385
+Server listening on port 32000
+Client connected! [debug]
+Waiting for call sign. [debug]
+New connection, call sign is diamond. [info]
+ok [debug]
+Listening for connection on port 4444 [info]
+diamond has joined F F A [messages]
+Sending message: diamond has joined F F A [debug]
+Success [debug]
+Game J46739:Adding player c4515373-2d1a-45c4-8900-745b663cf854... [debug]
+Game J46739:Propogating connection... [debug]
+Game J46739:Sending info about other clients to this client... [debug]
+Game J46739:FFA, Starting local player... [debug]
+Game J46739:diamond has joined this game. [chat]
+Game J46739:Drone 14817 has been created. [chat]
+Game J46739:Bot Drone 14817 created [debug]
+Game J46739:Drone 92420 has been created. [chat]
+Game J46739:Bot Drone 92420 created [debug]
+Game J46739:Intercepter 21830 has been created. [chat]
+Game J46739:Bot Intercepter 21830 created [debug]
+Game J46739:Intercepter 8272 has been created. [chat]
+Game J46739:Bot Intercepter 8272 created [debug]
+Game J46739:Intercepter 7903 has been created. [chat]
+Game J46739:Bot Intercepter 7903 created [debug]
+Game J46739:Intercepter 2637 has been created. [chat]
+Game J46739:Bot Intercepter 2637 created [debug]
+Game J46739:Drone 92420 was poned by Intercepter 21830 [chat]
+Game J46739:Drone 14817 was poned by Intercepter 2637 [chat]
+Game J46739:Intercepter 8272 was poned by Intercepter 2637 [chat]
+Game J46739:Intercepter 2637 was poned by Intercepter 7903 [chat]
+Game J46739:Drone 03359 has been created. [chat]
+Game J46739:Bot Drone 03359 created [debug]
+Game J46739:Intercepter 7903 was poned by Intercepter 21830 [chat]
+Game J46739:Fighter 52213 has been created. [chat]
+Game J46739:Bot Fighter 52213 created [debug]
+diamond Has returned from a game. [messages]
+Sending message: diamond Has returned from a game. [debug]
+Success [debug]
+Game J46739:Clearing bots. [debug]
+Game J46739:Ok [debug]
+Game J46739:diamond has left the game. [chat]
+diamond disconnected [info]
+Running server version 2.44
+Logging levels in effect: messages, chat, info, error, debug
+Settings loaded from settings.json. [info]
+Initializing...
+Creating FFA game. [info]
+ok [debug]
+Server listening on port 4444
+Server listening on port 4445
+Server listening on port 4567
+Server listening on port 6969
+Server listening on port 60385
+Server listening on port 32000
+Client connected! [debug]
+Waiting for call sign. [debug]
+New connection, call sign is diamond. [info]
+ok [debug]
+Listening for connection on port 4444 [info]
+diamond has joined F F A [messages]
+Sending message: diamond has joined F F A [debug]
+Success [debug]
+Game J6BSL78:Adding player 038447ac-4558-466a-b74c-cdecd4213432... [debug]
+Game J6BSL78:Propogating connection... [debug]
+Game J6BSL78:Sending info about other clients to this client... [debug]
+Game J6BSL78:FFA, Starting local player... [debug]
+Game J6BSL78:diamond has joined this game. [chat]
+Game J6BSL78:Chopper 4441 has been created. [chat]
+Game J6BSL78:Bot Chopper 4441 created [debug]
+Game J6BSL78:Chopper 4441 made a pilot error [chat]
+Game J6BSL78:Chopper 35113 has been created. [chat]
+Game J6BSL78:Bot Chopper 35113 created [debug]
+Game J6BSL78:Chopper 35113 made a pilot error [chat]
+Game J6BSL78:Chopper 74256 has been created. [chat]
+Game J6BSL78:Bot Chopper 74256 created [debug]
+Game J6BSL78:Chopper 74256 made a pilot error [chat]
+diamond Has returned from a game. [messages]
+Sending message: diamond Has returned from a game. [debug]
+Success [debug]
+Game J6BSL78:Clearing bots. [debug]
+Game J6BSL78:Ok [debug]
+Game J6BSL78:diamond has left the game. [chat]
+diamond disconnected [info]
+Client connected! [debug]
+Waiting for call sign. [debug]
+New connection, call sign is diamond. [info]
+ok [debug]
+Listening for connection on port 4444 [info]
+diamond has joined F F A [messages]
+Sending message: diamond has joined F F A [debug]
+Success [debug]
+Game J6BSL78:Adding player 2b218497-f561-414f-9087-0c72835c8de0... [debug]
+Game J6BSL78:Propogating connection... [debug]
+Game J6BSL78:Sending info about other clients to this client... [debug]
+Game J6BSL78:FFA, Starting local player... [debug]
+Game J6BSL78:diamond has joined this game. [chat]
+Game J6BSL78:Chopper 05875 has been created. [chat]
+Game J6BSL78:Bot Chopper 05875 created [debug]
+Game J6BSL78:Chopper 6803 has been created. [chat]
+Game J6BSL78:Bot Chopper 6803 created [debug]
+Game J6BSL78:Drone 43910 has been created. [chat]
+Game J6BSL78:Bot Drone 43910 created [debug]
+Game J6BSL78:Drone 4343 has been created. [chat]
+Game J6BSL78:Bot Drone 4343 created [debug]
+Game J6BSL78:Drone 43910 was poned by Drone 4343 [chat]
+Game J6BSL78:Drone 11946 has been created. [chat]
+Game J6BSL78:Bot Drone 11946 created [debug]
+Game J6BSL78:Drone 3832 has been created. [chat]
+Game J6BSL78:Bot Drone 3832 created [debug]
+Game J6BSL78:Drone 78603 has been created. [chat]
+Game J6BSL78:Bot Drone 78603 created [debug]
+Game J6BSL78:Drone 9318 has been created. [chat]
+Game J6BSL78:Bot Drone 9318 created [debug]
+Game J6BSL78:Drone 11946 was poned by Drone 4343 [chat]
+Game J6BSL78:Drone 4343 was poned by Drone 11946 [chat]
+Game J6BSL78:Drone 78603 was poned by Drone 3832 [chat]
+Game J6BSL78:Drone 3832 was poned by Drone 9318 [chat]
+Game J6BSL78:Chopper 05875 was poned by diamond [chat]
+Game J6BSL78:Elite fighter 32726 has been created. [chat]
+Game J6BSL78:Bot Elite fighter 32726 created [debug]
+Game J6BSL78:Elite fighter 2662 has been created. [chat]
+Game J6BSL78:Bot Elite fighter 2662 created [debug]
+Game J6BSL78:Intercepter 66020 has been created. [chat]
+Game J6BSL78:Bot Intercepter 66020 created [debug]
+Game J6BSL78:Drone 0260 has been created. [chat]
+Game J6BSL78:Bot Drone 0260 created [debug]
+Game J6BSL78:Ace aircraft 7803 has been created. [chat]
+Game J6BSL78:Bot Ace aircraft 7803 created [debug]
+Game J6BSL78:Clearing bots. [debug]
+Game J6BSL78:Ok [debug]
+Game J6BSL78:diamond has been unexpectedly disconnected. [chat]
+Running server version 2.44
+Logging levels in effect: debug, error, info, chat, messages
+Settings loaded from settings.json. [info]
+Initializing...
+Creating FFA game. [info]
+ok [debug]
+Server listening on port 4444
+Server listening on port 4445
+Server listening on port 4567
+Server listening on port 6969
+Server listening on port 60385
+Server listening on port 32000
+Running server version 2.44
+Logging levels in effect: debug, error, info, chat, messages
+Settings loaded from settings.json. [info]
+Initializing...
+Creating FFA game. [info]
+ok [debug]
+Server listening on port 4444
+Server listening on port 4445
+Server listening on port 4567
+Server listening on port 6969
+Server listening on port 60385
+Server listening on port 32000
+Client connected! [debug]
+Waiting for call sign. [debug]
+New connection, call sign is diamond. [info]
+ok [debug]
+Listening for connection on port 4444 [info]
+diamond has joined F F A [messages]
+Sending message: diamond has joined F F A [debug]
+Success [debug]
+Game 91O0OJY01:Adding player eafbce3b-95ce-4163-bcba-98856d539109... [debug]
+Game 91O0OJY01:Propogating connection... [debug]
+Game 91O0OJY01:Sending info about other clients to this client... [debug]
+Game 91O0OJY01:FFA, Starting local player... [debug]
+Game 91O0OJY01:diamond has joined this game. [chat]
+Game 91O0OJY01:Chopper 6995 has been created. [chat]
+Game 91O0OJY01:Bot Chopper 6995 created [debug]
+Game 91O0OJY01:Elite fighter 7809 has been created. [chat]
+Game 91O0OJY01:Bot Elite fighter 7809 created [debug]
+Game 91O0OJY01:Fighter 0163 has been created. [chat]
+Game 91O0OJY01:Bot Fighter 0163 created [debug]
+Game 91O0OJY01:Intercepter 02085 has been created. [chat]
+Game 91O0OJY01:Bot Intercepter 02085 created [debug]
+Game 91O0OJY01:Drone 3727 has been created. [chat]
+Game 91O0OJY01:Bot Drone 3727 created [debug]
+Game 91O0OJY01:Ace aircraft 4585 has been created. [chat]
+Game 91O0OJY01:Bot Ace aircraft 4585 created [debug]
+Game 91O0OJY01:Drone 3727 was poned by Elite fighter 7809 [chat]
+Game 91O0OJY01:Intercepter 02085 was poned by Elite fighter 7809 [chat]
+Game 91O0OJY01:Elite fighter 7809 was poned by Intercepter 02085 [chat]
+Game 91O0OJY01:Elite fighter 13944 has been created. [chat]
+Game 91O0OJY01:Bot Elite fighter 13944 created [debug]
+Game 91O0OJY01:B-0163 has been dropped from the server [chat]
+Game 91O0OJY01:B-13944 has been dropped from the server [chat]
+Game 91O0OJY01:B-4585 has been dropped from the server [chat]
+diamond Has returned from a game. [messages]
+Sending message: diamond Has returned from a game. [debug]
+Success [debug]
+Game 91O0OJY01:Clearing bots. [debug]
+Game 91O0OJY01:Ok [debug]
+Game 91O0OJY01:diamond has left the game. [chat]
+diamond disconnected [info]
+Running server version 2.44
+Logging levels in effect: debug, error, info, messages
+Settings loaded from settings.json. [info]
+Initializing...
+Creating FFA game. [info]
+ok [debug]
+Server listening on port 4444
+Server listening on port 4445
+Server listening on port 4567
+Server listening on port 6969
+Server listening on port 60385
+Server listening on port 32000
+Client connected! [debug]
+Waiting for call sign. [debug]
+New connection, call sign is diamond. [info]
+ok [debug]
+Listening for connection on port 4444 [info]
+diamond has joined F F A [messages]
+Sending message: diamond has joined F F A [debug]
+Success [debug]
+Game 4FU80872:Adding player ebaf701a-a45b-469c-a210-f7140b9c78ab... [debug]
+Game 4FU80872:Propogating connection... [debug]
+Game 4FU80872:Sending info about other clients to this client... [debug]
+Game 4FU80872:FFA, Starting local player... [debug]
+Game 4FU80872:Bot Elite fighter 7053 created [debug]
+Game 4FU80872:Bot Drone 35791 created [debug]
+Game 4FU80872:Bot Drone 37926 created [debug]
+Game 4FU80872:Bot Chopper 39006 created [debug]
+Game 4FU80872:Bot Ace aircraft 4659 created [debug]
+Game 4FU80872:Bot Chopper 25937 created [debug]
+diamond Has returned from a game. [messages]
+Sending message: diamond Has returned from a game. [debug]
+Success [debug]
+Game 4FU80872:Clearing bots. [debug]
+Game 4FU80872:Ok [debug]
+diamond disconnected [info]
+Client connected! [debug]
+Waiting for call sign. [debug]
+New connection, call sign is diamond. [info]
+ok [debug]
+Listening for connection on port 4444 [info]
+diamond has joined F F A [messages]
+Sending message: diamond has joined F F A [debug]
+Success [debug]
+Game 4FU80872:Adding player 23f796a7-1ec4-4ca0-8b6e-b84fcde7c913... [debug]
+Game 4FU80872:Propogating connection... [debug]
+Game 4FU80872:Sending info about other clients to this client... [debug]
+Game 4FU80872:FFA, Starting local player... [debug]
+Game 4FU80872:Bot Elite fighter 8860 created [debug]
+Game 4FU80872:Bot Intercepter 2051 created [debug]
+Game 4FU80872:Bot Fighter 64341 created [debug]
+Game 4FU80872:Bot Ace aircraft 6417 created [debug]
+diamond Has returned from a game. [messages]
+Sending message: diamond Has returned from a game. [debug]
+Success [debug]
+Game 4FU80872:Clearing bots. [debug]
+Game 4FU80872:Ok [debug]
+diamond disconnected [info]
+Running server version 2.44
+Logging levels in effect: debug, error, info, messages
+Settings loaded from settings.json. [info]
+Initializing...
+Creating FFA game. [info]
+ok [debug]
+Server listening on port 4444
+Server listening on port 4445
+Server listening on port 4567
+Server listening on port 6969
+Server listening on port 60385
+Server listening on port 32000
+Running server version 2.44
+Logging levels in effect: debug, error, info, messages
+Settings loaded from settings.json. [info]
+Initializing...
+Creating FFA game. [info]
+ok [debug]
+Server listening on port 4444
+Server listening on port 4445
+Server listening on port 4567
+Server listening on port 6969
+Server listening on port 60385
+Server listening on port 32000
+Client connected! [debug]
+Waiting for call sign. [debug]
+New connection, call sign is diamond. [info]
+ok [debug]
+Listening for connection on port 4444 [info]
+diamond has joined F F A [messages]
+Sending message: diamond has joined F F A [debug]
+Success [debug]
+Game 6F6VTI3:Adding player 25685cc7-4583-4bdb-a729-11c5f4629729... [debug]
+Game 6F6VTI3:Propogating connection... [debug]
+Game 6F6VTI3:Sending info about other clients to this client... [debug]
+Game 6F6VTI3:FFA, Starting local player... [debug]
+Game 6F6VTI3:Bot Elite fighter 68513 created [debug]
+Game 6F6VTI3:Bot Chopper 3642 created [debug]
+Game 6F6VTI3:Bot Ace aircraft 8837 created [debug]
+diamond Has returned from a game. [messages]
+Sending message: diamond Has returned from a game. [debug]
+Success [debug]
+Game 6F6VTI3:Clearing bots. [debug]
+Game 6F6VTI3:Ok [debug]
+diamond has joined F F A [messages]
+Sending message: diamond has joined F F A [debug]
+Success [debug]
+Game 6F6VTI3:Adding player 25685cc7-4583-4bdb-a729-11c5f4629729... [debug]
+Game 6F6VTI3:Propogating connection... [debug]
+Game 6F6VTI3:Sending info about other clients to this client... [debug]
+Game 6F6VTI3:FFA, Starting local player... [debug]
+diamond Has returned from a game. [messages]
+Sending message: diamond Has returned from a game. [debug]
+Success [debug]
+Game 6F6VTI3:Clearing bots. [debug]
+Game 6F6VTI3:Ok [debug]
+diamond disconnected [info]
+Client connected! [debug]
+Waiting for call sign. [debug]
+New connection, call sign is diamond. [info]
+ok [debug]
+Listening for connection on port 4444 [info]
+diamond has joined F F A [messages]
+Sending message: diamond has joined F F A [debug]
+Success [debug]
+Game 6F6VTI3:Adding player c6dfad37-01e8-489d-bbfd-44e9b9922ce4... [debug]
+Game 6F6VTI3:Propogating connection... [debug]
+Game 6F6VTI3:Sending info about other clients to this client... [debug]
+Game 6F6VTI3:FFA, Starting local player... [debug]
+Game 6F6VTI3:Bot Elite fighter 8797 created [debug]
+Game 6F6VTI3:Bot Chopper 35016 created [debug]
+Game 6F6VTI3:Bot Drone 30170 created [debug]
+Game 6F6VTI3:Bot Chopper 3492 created [debug]
+Game 6F6VTI3:Bot Ace aircraft 8723 created [debug]
+Game 6F6VTI3:Bot Fighter 55528 created [debug]
+diamond Has returned from a game. [messages]
+Sending message: diamond Has returned from a game. [debug]
+Success [debug]
+Game 6F6VTI3:Clearing bots. [debug]
+Game 6F6VTI3:Ok [debug]
+diamond disconnected [info]
+Running server version 2.44
+Logging levels in effect: debug, error, info, messages
+Settings loaded from settings.json. [info]
+Initializing...
+Creating FFA game. [info]
+ok [debug]
+Server listening on port 4444
+Server listening on port 4445
+Server listening on port 4567
+Server listening on port 6969
+Server listening on port 60385
+Server listening on port 32000
+Client connected! [debug]
+Waiting for call sign. [debug]
+New connection, call sign is diamond. [info]
+ok [debug]
+Listening for connection on port 4444 [info]
+diamond has joined F F A [messages]
+Sending message: diamond has joined F F A [debug]
+Success [debug]
+Game 25BGS80Q8:Adding player e245bd49-68a2-4a33-9ff2-209b9ec5a110... [debug]
+Game 25BGS80Q8:Propogating connection... [debug]
+Game 25BGS80Q8:Sending info about other clients to this client... [debug]
+Game 25BGS80Q8:FFA, Starting local player... [debug]
+Game 25BGS80Q8:Bot Elite fighter 59254 created [debug]
+Game 25BGS80Q8:Bot Chopper 4232 created [debug]
+Game 25BGS80Q8:Bot Ace aircraft 4562 created [debug]
+Game 25BGS80Q8:Bot Chopper 64299 created [debug]
+diamond Has returned from a game. [messages]
+Sending message: diamond Has returned from a game. [debug]
+Success [debug]
+Game 25BGS80Q8:Clearing bots. [debug]
+Game 25BGS80Q8:Ok [debug]
+diamond disconnected [info]
+Running server version 2.44
+Logging levels in effect: debug, error, info, messages
+Settings loaded from settings.json. [info]
+Initializing...
+Creating FFA game. [info]
+ok [debug]
+Server listening on port 4444
+Server listening on port 4445
+Server listening on port 4567
+Server listening on port 6969
+Server listening on port 60385
+Server listening on port 32000
+Client connected! [debug]
+Waiting for call sign. [debug]
+New connection, call sign is diamond. [info]
+ok [debug]
+Listening for connection on port 4444 [info]
+diamond has joined F F A [messages]
+Sending message: diamond has joined F F A [debug]
+Success [debug]
+Game J0R78X0B:Adding player c5f71088-9451-46a5-a98e-5790edc95232... [debug]
+Game J0R78X0B:Propogating connection... [debug]
+Game J0R78X0B:Sending info about other clients to this client... [debug]
+Game J0R78X0B:FFA, Starting local player... [debug]
+Game J0R78X0B:Bot Fighter 77483 created [debug]
+Game J0R78X0B:Bot Drone 5778 created [debug]
+Game J0R78X0B:Bot Intercepter 60383 created [debug]
+diamond Has returned from a game. [messages]
+Sending message: diamond Has returned from a game. [debug]
+Success [debug]
+Game J0R78X0B:Clearing bots. [debug]
+Game J0R78X0B:Ok [debug]
 diamond disconnected [info]

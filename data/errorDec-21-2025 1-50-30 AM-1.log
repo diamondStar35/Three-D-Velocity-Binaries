@@ -1,0 +1,17 @@
+Error log, created with build version 2.44.0.0: 
+Error base exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at SharpDX.XAudio2.Voice.GetVolume(Single& volumeRef)
+   at BPCSharedComponent.ExtendedAudio.DSound.getVolumeOfMusic()
+   at TDV.Common.fadeMusic(Boolean stop)
+   at TDV.Common.fadeMusic()
+   at TDV.Common.buildOnlineMenu()
+   at TDV.Common.startGame()
+   at TDV.GUI.startGame()
+Error Description: Object reference not set to an instance of an object.
+Stack trace:    at SharpDX.XAudio2.Voice.GetVolume(Single& volumeRef)
+   at BPCSharedComponent.ExtendedAudio.DSound.getVolumeOfMusic()
+   at TDV.Common.fadeMusic(Boolean stop)
+   at TDV.Common.fadeMusic()
+   at TDV.Common.buildOnlineMenu()
+   at TDV.Common.startGame()
+   at TDV.GUI.startGame()
